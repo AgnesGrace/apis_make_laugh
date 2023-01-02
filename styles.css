@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: sans-serif, Arial;
+}
+.img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 250px;
+	
+}
+.button {
+	padding: 6em;
+	border-radius: 6em;
+	cursor: pointer;
+	border: 1px solid black;
+	background-color: royalblue;
+}
+button:hover {
+	background-color: pink;
+}
+.container {
+	width: 80%;
+	height: 100vh;
+	margin: 0 auto;
+	background-image: linear-gradient(to left,#2c3e50, #bdc3c7);
+	text-align: center;
+}
